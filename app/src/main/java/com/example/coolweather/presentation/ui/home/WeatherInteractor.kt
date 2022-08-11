@@ -4,8 +4,8 @@ import com.example.coolweather.data.local.database.WeatherDao
 import com.example.coolweather.data.models.Weather
 import com.example.coolweather.data.models.WeatherModel
 import com.example.coolweather.data.network.ApiWorker
-import com.example.coolweather.presentation.mapper.WeatherApiResponseToModel
-import com.example.coolweather.presentation.mapper.WeatherModelToEntity
+import com.example.coolweather.presentation.utils.toEntity
+import com.example.coolweather.presentation.utils.toModel
 import javax.inject.Inject
 
 class WeatherInteractor @Inject constructor(
@@ -13,14 +13,9 @@ class WeatherInteractor @Inject constructor(
     private val weatherDao: WeatherDao
 ) {
 
-    suspend fun getWeather(lang: String, lat: String, lon: String): WeatherModel{
-        val array = apiWorker.getWeatherOne(lang, lat, lon)
-        return WeatherApiResponseToModel.map(array)
-    }
+    suspend fun getWeather(lang: String, lat: String, lon: String): WeatherModel = apiWorker.getWeatherOne(lang, lat, lon).toModel()
 
-    suspend fun addCity(weatherModel: Weather){
-        return weatherDao.insertOne(WeatherModelToEntity.map(weatherModel))
-    }
+    suspend fun addCity(weatherModel: Weather) = weatherDao.insertOne(weatherModel.toEntity())
 
 
 }
