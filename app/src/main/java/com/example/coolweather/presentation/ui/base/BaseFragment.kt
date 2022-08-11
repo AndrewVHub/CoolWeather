@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.viewbinding.ViewBinding
-import javax.inject.Inject
 
 abstract class BaseFragment<B: ViewBinding>(
     private val inflateMethod : (LayoutInflater, ViewGroup?, Boolean) -> B

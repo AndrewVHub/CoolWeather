@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/drawable/delete_after.xml" value="0.312" />
+        <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/drawable/ic_heart.xml" value="0.313" />
+        <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/drawable/ic_sun.xml" value="0.196" />
+        <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/drawable/ic_sun_cloud.xml" value="0.196" />
+        <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/drawable/ic_weather.xml" value="0.313" />
         <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/drawable/shape_condition_background.xml" value="0.312" />
         <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/drawable/shape_line_day_night.xml" value="0.312" />
         <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/drawable/weather_item.xml" value="0.312" />
         <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/layout/weather_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidProject/CoolWeather/app/src/main/res/menu/base_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

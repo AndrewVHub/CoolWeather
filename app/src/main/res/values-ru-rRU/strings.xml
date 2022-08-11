@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="pressureValue">%s мБар</string>
+    <string name="windValue">%s км/ч</string>
+    <string name="nameCity">Название-города</string>
+    <string name="lastUpdate">"Последнее обновление: %s"</string>
+    <string name="noPermissionGPS">Нет разрешения на GPS</string>
+    <string name="weatherItem">Погода</string>
+    <string name="addedItem">Добавленные</string>
+</resources>
